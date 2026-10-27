@@ -31,6 +31,16 @@ Karukaya には、まだ電子署名をしていません。そのため、最�
 
 ### Mac
 
+**ターミナルで入れる（おすすめ）**：次の 1 行を実行します。最新の版を「アプリケーション」に入れ、最初に開くときの警告も出ません。新しい版にするときも、同じ 1 行を実行します（Karukaya を閉じてから）。
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/digileap-jp/karukaya-releases/main/install-mac.sh | sh
+```
+
+途中で「ターミナルで karukaya . と打って起動できるようにしますか？」と聞かれます。`y` を押すと、Mac のパスワードを聞かれます。中で何をしているかは [install-mac.sh](install-mac.sh) で読めます。
+
+**ブラウザでダウンロードして入れる**：
+
 1. `Karukaya_<版>_universal.dmg` を開き、Karukaya を「アプリケーション」にドラッグする
 2. 「アプリケーション」の Karukaya を開く。「開けません」「Apple は検証できませんでした」と出たら、「完了」（または「OK」）で閉じる
 3. 「システム設定」→「プライバシーとセキュリティ」を開き、下のほうの「"Karukaya" は Mac を保護するためにブロックされました」の横の「このまま開く」を押す
