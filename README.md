@@ -3,6 +3,8 @@
 AI CLI（Claude Code、Codex など）で開発する人のための、軽いデスクトップエディタです。
 AI が書き換えたファイルをすぐに見つけ、差分を確かめ、次の指示を出せます。
 
+**今はベータ版です。** 動きや画面が予告なく変わることがあります。不具合や気付いたことは、Karukaya を教えてくれた人に知らせてください。
+
 ## ダウンロード
 
 [Releases](https://github.com/digileap-jp/karukaya-releases/releases/latest) から、使っている OS のファイルをダウンロードしてください。
