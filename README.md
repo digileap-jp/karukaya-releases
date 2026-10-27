@@ -50,6 +50,14 @@ sudo apt install ./Karukaya_<版>_amd64.deb
 
 アプリの一覧から Karukaya を開けます。消すときは `sudo apt remove karukaya` です。
 
+## ターミナルから起動する
+
+フォルダに移って `karukaya .` と打つと、そのフォルダを Karukaya で開けます。`karukaya src/main.ts` のようにファイルも開けます。
+
+- **Windows**：セットアップで使えるようになります。セットアップの後に開いたターミナルで使ってください（Windows Terminal は、アプリごと開き直します）
+- **Mac**：Karukaya のメニューの「Karukaya」→「ターミナルから起動できるようにする…」を一度押します（Mac のパスワードを聞かれます）
+- **Linux**：`.deb` を入れると使えます
+
 ## 利用条件
 
 - Karukaya の著作権は、合同会社DigiLeap（DigiLeap LLC）にあります
