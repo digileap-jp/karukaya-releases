@@ -13,7 +13,7 @@ AI が書き換えたファイルをすぐに見つけ、差分を確かめ、�
 |---|---|
 | Windows 11 | `Karukaya_<版>_x64-setup.exe` |
 | Mac（Apple シリコン・Intel のどちらも） | `Karukaya_<版>_universal.dmg` |
-| Linux（Ubuntu 22.04 以降・Debian） | `karukaya_<版>_amd64.deb` |
+| Linux（Ubuntu 22.04 以降・Debian） | `Karukaya_<版>_amd64.deb` |
 
 新しい版が出ても、自動では知らせません。ときどき Releases を見てください。
 
@@ -45,7 +45,7 @@ xattr -dr com.apple.quarantine /Applications/Karukaya.app
 ### Linux
 
 ```bash
-sudo apt install ./karukaya_<版>_amd64.deb
+sudo apt install ./Karukaya_<版>_amd64.deb
 ```
 
 アプリの一覧から Karukaya を開けます。消すときは `sudo apt remove karukaya` です。
