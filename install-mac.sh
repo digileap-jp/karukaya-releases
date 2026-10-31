@@ -73,13 +73,14 @@ command_script() {
 n=$#
 for arg in "$@"; do
   case "$arg" in
-    /*|-*) ;;
+    -*) continue ;;
+    /*) ;;
     *) arg="$PWD/$arg" ;;
   esac
   set -- "$@" "$arg"
 done
 shift "$n"
-exec open -n -b 'jp.digileap.karukaya' --args "$@"
+exec open -b 'jp.digileap.karukaya' "$@"
 EOF
 }
 

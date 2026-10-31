@@ -43,7 +43,7 @@ Karukaya には、まだ電子署名をしていません。そのため、最�
 
 ### Mac
 
-**ターミナルで入れる（おすすめ）**：次の 1 行を実行します。最新の版を「アプリケーション」に入れ、最初に開くときの警告も出ません。新しい版にするときも、同じ 1 行を実行します（Karukaya を閉じてから）。
+**ターミナルで入れる（おすすめ）**：次の 1 行を実行します。最新の版を「アプリケーション」に入れ、最初に開くときの警告も出ません。新しい版にするときも、同じ 1 行を実行します（Karukaya を「終了」（⌘Q）してから。窓を閉じただけでは、Karukaya は終わっていません）。
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/digileap-jp/karukaya-releases/main/install-mac.sh | sh
@@ -74,10 +74,10 @@ sudo apt install ./Karukaya_<版>_amd64.deb
 
 ## ターミナルから起動する
 
-フォルダに移って `karukaya .` と打つと、そのフォルダを Karukaya で開けます。`karukaya src/main.ts` のようにファイルも開けます。
+フォルダに移って `karukaya .` と打つと、そのフォルダを Karukaya で開けます。`karukaya src/main.ts` のようにファイルも開けます。Karukaya がもう動いているときは、その Karukaya に新しい窓で開きます。
 
 - **Windows**：セットアップで使えるようになります。セットアップの後に開いたターミナルで使ってください（Windows Terminal は、アプリごと開き直します）
-- **Mac**：Karukaya のメニューの「Karukaya」→「ターミナルから起動できるようにする…」を一度押します（Mac のパスワードを聞かれます）
+- **Mac**：Karukaya のメニューの「Karukaya」→「ターミナルから起動できるようにする…」を一度押します（Mac のパスワードを聞かれます）。0.1.7 までに押した人は、もう一度押してください（前のままでも開けますが、Karukaya をもう 1 つ起動してから、動いている Karukaya に渡すので、少し遅くなります）
 - **Linux**：`.deb` を入れると使えます
 
 ## エクスプローラーから開く（Windows）
